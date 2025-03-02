@@ -6,7 +6,7 @@ import User_profile from "../components/User_profile.jsx";
 import Square from "../components/square.jsx";
 import Header from "../components/Header.jsx";
 
-const socket = io("https://react-nodejs-projects.onrender.com");
+const socket = io("https://reactjs-projects.onrender.com");
 
 const App = () => {
   const [board, setBoard] = useState(Array(9).fill(null));
